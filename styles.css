@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1120px;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.box1 {
+  width: 400px;
+  height: 200px;
+  background-color: #211951;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+.box2 {
+  width: 400px;
+  height: 200px;
+  background-color: #836fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+.box3 {
+  width: 400px;
+  height: 200px;
+  background-color: #15f5ba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+.box4 {
+  width: 400px;
+  height: 200px;
+  background-color: #f0f3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: black;
+  margin: 20px;
+  border-radius: 10px;
+}
+.box5 {
+  width: 400px;
+  height: 200px;
+  background-color: #00ead3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+.box6 {
+  width: 400px;
+  height: 200px;
+  background-color: #ff449f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+.box7 {
+  width: 400px;
+  height: 200px;
+  background-color: #116d6e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+.box8 {
+  width: 400px;
+  height: 200px;
+  background-color: #cd1818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 200px) and (max-width: 640px) {
+  main {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box8 {
+    margin: 10px;
+  }
+}
